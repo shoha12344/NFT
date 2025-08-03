@@ -1,0 +1,348 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 330px;
+}
+
+/* HEADER START */
+/* ***************************************************************************************** */
+
+.header__nav{
+    background: #000;
+    border-radius: 10px;
+    margin-top: 25px;
+    
+}
+
+.header__nav-link{
+    background: #7f15e6;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px 23px;
+    font-weight: 900;
+    transition: 0.5s;
+    display: flex;
+}
+
+.header__nav-link:hover{
+    background: #d4aafd;
+    color: #7f15e6;
+}
+
+.menu__btn{
+    color: #fff;
+    font-size: 30px;
+}
+
+.header__list{
+    background: #000;
+    margin-top: 25px;
+    padding: 7px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list-ul{
+    display: flex;
+}
+
+.link{
+    background: #000;
+    font-size: 17px;
+    text-transform: uppercase;
+    width: 57px;
+    height: 44px;
+    border: 2px solid #ff118c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 7px;
+}
+
+.link:hover{
+    background: #ff118c;
+    color: #fff;
+}
+
+.bell{
+    color: #fff;
+    margin-right: 14px;
+    font-size: 18px;
+}
+.bell:hover{
+    color: #fff;
+    text-shadow: 0 0 15px #fff;
+}
+
+
+/* SLIDER START */
+/* ************************************************************************************************ */
+
+.slider__block-img{
+    position: relative;
+}
+
+.slider__block-images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.slider{
+    margin-top: 42px;
+}
+
+.slider__block-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 50px 0px 44px 44px;
+    width: 100%;
+    height: 100%;
+}
+
+.slider__block-title{
+    max-width: 373px;
+    width: 100%;
+    font-size: 30px;
+    color: #fff;
+}
+
+.slider__block-ul{
+    display: flex;
+    margin-top: 45px;
+}
+
+.slider__block-p{
+    color: #fff;
+    margin-right: 38px;
+    font-size: 15px;
+}
+
+.slider__block-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 164px;
+    height: 48px;
+    background: linear-gradient(to right , #e43486 , #bd0d60 );
+    border-radius: 10px;
+    margin-top: 55px;
+    color: #fff;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.slider__block-link:hover{
+    box-shadow: 0 0 15px 5px #fff;
+    color: #fff;
+}
+
+.slider__block-btn{
+    width: 82px;
+    height: 32px;
+    border: 1.5px solid #7f15e6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+.carousel-control-btn{
+    width: 34px;
+    height: 26px;
+    color: #7f15e6;
+    box-shadow: 0 0 15px 0px #cac9c9;
+    border-radius: 13px;
+    border: none;
+    background: #fff;
+}
+
+
+/* TREADING START */
+/* ************************************************************************************************ */
+
+
+.treading__title{
+    margin-top: 8px;
+    font-weight: 500;
+    color: #000;
+    font-size: 17px;
+}
+
+.treading__box{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 22px;
+}
+
+.treading__images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.treading__text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: #00000050;
+}
+
+.treading__text-title{
+    font-size: 20px;
+}
+
+.treading__text-number{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+/* USER START */
+/* ************************************************************************************** */
+
+.user{
+    background: #e3e3e3;
+    border-radius: 10px;
+    padding: 17px;
+}
+
+.user__box{
+    padding: 28px 13px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.user__box:hover{
+    box-shadow: 0 0 5px 1px #a1a1a1;
+    background-color: #fff;
+}
+
+.user__box-text {
+    
+    margin-left: 7px;
+}
+
+.user__box-text h4{
+    font-size: 14px;
+    color: #000;
+}
+
+.user__box-text p{
+    font-size: 14px;
+    color: #000;
+}
+
+
+/* SECTION-TAB START */
+/* *************************************************************************************** */
+
+.nav-pills{
+    justify-content: end !important; 
+    margin-top: 23px;
+}
+
+.nav-link{
+    color: #000;
+    background: #fff;
+    font-size: 12px;
+    border: 2px solid #ff118c !important;
+    border-radius: 8px;
+    padding: 6px 11px !important;
+    margin-left: 10px;
+}
+
+.nav-link:hover{
+    background: #ff118c;
+    color: #fff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background: #ff118c;
+    color: #fff;
+}
+
+.section-tab__images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-tab__box{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.section-tab__text{
+    position: absolute;
+    bottom: 9px;
+    left: 9px;
+    color: #fff;
+    width: 92.5%;
+    background: #00000060;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.section-tab__user img{
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* FOOTER START */
+/* ********************************************************************************** */
+
+.footer{
+    margin-top: 41px;
+}
+
+.footer__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 9px;
+}
